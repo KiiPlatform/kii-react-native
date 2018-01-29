@@ -3,6 +3,7 @@ import HomeScreen from "./HomeScreen.js";
 import SideBar from "../SideBar/SideBar.js";
 import { DrawerNavigator } from "react-navigation";
 
+
 const HomeScreenRouter = DrawerNavigator(
   {
     Home: { screen: HomeScreen }
